@@ -12,6 +12,7 @@ routes.get("/pessoa/:nome", PessoaController.getByName);
 routes.delete("/pessoa/:id", PessoaController.deleteById);
 
 routes.post("/salaEvento", salaEventoController.create);
+routes.get("/salaEvento/", salaEventoController.getAll);
 routes.get("/salaEvento/:id", salaEventoController.getById);
 routes.put("/salaEvento/:id", salaEventoController.updateById);
 

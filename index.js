@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use(routes)
 
-mongoose.connect('mongodb+srv://PODI:8QfU9a7AL41SFv80@cluster0-lb0cu.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://PODI:<password>@cluster0-lb0cu.mongodb.net/test?retryWrites=true&w=majority',
 {useNewUrlParser: true,
 useUnifiedTopology: true
 })
